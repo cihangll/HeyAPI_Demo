@@ -15,7 +15,7 @@ export default function Home() {
     <>
     <button type="button" onClick={() => getAllPersonsButtonClicked()}>Get All Persons</button>
       <br/>
-      Total Person Count Is: {persons.length ? persons.length + 1 : 0}
+      Total Person Count Is: {persons.length ?? 0}
     </>
 
   );
